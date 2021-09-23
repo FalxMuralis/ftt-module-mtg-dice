@@ -14,3 +14,8 @@ jobs:
         with:
           files: nice-mtg-dice/
           dest: test.zip
+      - uses: actions/upload-artifact@v1
+        with:
+          name: my-artifact
+          path: ${{ github.workspace }}/test.zip
+
