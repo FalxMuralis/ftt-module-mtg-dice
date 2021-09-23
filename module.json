@@ -1,23 +1,21 @@
 {
-  "name": "nice-mtg-dice",
-  "title": "Nice MTG Dice",
-  "description": "Adds a avacyn die to DsN.",
-  "author": "Falx",
-  "version": "1.0.0",
-  "minimumCoreVersion": "0.7.0",
-  "compatibleCoreVersion": "0.8.9",
-  "dependencies": [
+    "name": "nice-mtg-dice",
+    "title": "Nice MTG Dice",
+    "description": "Adds a avacyn die to DsN.",
+    "author": "Falx",
+    "version": "v1.0.2",
+    "minimumCoreVersion": "0.7.0",
+    "compatibleCoreVersion": "0.8.9",
+    "dependencies": [
         {
             "type": "module",
             "name": "dice-so-nice"
         }
     ],
-  "scripts": [
+    "scripts": [
         "scripts/nice-mtg-dice.json"
-  ],
-  "url": "https://github.com/FalxMuralis/nice-mtg-dice",
-  "manifest": "https://raw.githubusercontent.com/FalxMuralis/nice-mtg-dice/main/nice-mtg-dice/module.json",
-  "download": "https://raw.githubusercontent.com/FalxMuralis/nice-mtg-dice/main/module.zip"
+    ],
+    "url": "https://github.com/FalxMuralis/nice-mtg-dice",
+    "manifest": "https://github.com/FalxMuralis/nice-mtg-dice/releases/latest/download/module.json",
+    "download": "https://github.com/FalxMuralis/nice-mtg-dice/releases/download/v1.0.2/module.zip"
 }
-
-
