@@ -15,9 +15,9 @@
   "scripts": [
         "scripts/nice-mtg-dice.json"
   ],
-  "url": "",
-  "manifest": "",
-  "download": ""
+  "url": "https://github.com/FalxMuralis/nice-mtg-dice",
+  "manifest": "https://raw.githubusercontent.com/FalxMuralis/nice-mtg-dice/main/nice-mtg-dice/module.json",
+  "download": "https://raw.githubusercontent.com/FalxMuralis/nice-mtg-dice/main/module.zip"
 }
 
 
