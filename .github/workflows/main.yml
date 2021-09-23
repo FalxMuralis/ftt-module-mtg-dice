@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: ZIP
 
 # Controls when the workflow will run
 on:
@@ -24,6 +24,4 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Zip Folder
-      run: zip -r module.zip .
-    - name: Release to Github
-      run: echo "Release"
+      run: zip -r test.zip nice-mtg-dice
