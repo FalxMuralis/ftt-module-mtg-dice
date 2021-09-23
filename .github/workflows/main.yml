@@ -24,4 +24,4 @@ jobs:
     steps:
     - uses: montudor/action-zip@v1
     - name: Zip Folder
-      run: zip -r -qq test.zip nice-mtg-dice
+      run: zip -r test.zip ./nice-mtg-dice
