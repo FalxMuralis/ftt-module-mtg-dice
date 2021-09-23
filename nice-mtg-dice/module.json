@@ -1,0 +1,23 @@
+{
+  "name": "nice-mtg-dice",
+  "title": "Nice MTG Dice",
+  "description": "Adds a avacyn die to DsN.",
+  "author": "Falx",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.7.0",
+  "compatibleCoreVersion": "0.8.9",
+  "dependencies": [
+        {
+            "type": "module",
+            "name": "dice-so-nice"
+        }
+    ],
+  "scripts": [
+        "scripts/nice-mtg-dice.json"
+  ],
+  "url": "",
+  "manifest": "",
+  "download": ""
+}
+
+
