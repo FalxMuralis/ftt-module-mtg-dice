@@ -17,5 +17,5 @@ jobs:
       - uses: actions/upload-artifact@v1
         with:
           name: my-artifact
-          path: test.zip
+          path: https://github.com/FalxMuralis/nice-mtg-dice/test.zip
 
