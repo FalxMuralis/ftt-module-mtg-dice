@@ -100,7 +100,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     foreground: '#a68c4e',
     background: "#ffffff",
 		outline: "#000000",
-    texture: 'Stars',
+    texture: 'stars',
     edge: '#8f7538',
     material: 'plastic',
     font: 'Luminari',
