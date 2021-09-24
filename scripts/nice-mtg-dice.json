@@ -91,4 +91,20 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     ],
     system:"Shadow_over_Innistrad_20"
   });
+	
+	// Colorset
+	dice3d.addColorset({
+    name: 'MTG',
+    description: "MTG Color Set",
+    category: "Nice MTG Dice",
+    foreground: '#a68c4e',
+    background: "#ffffff",
+		outline: "#000000",
+    texture: 'Stars',
+    edge: '#8f7538',
+    material: 'plastic',
+    font: 'Luminari',
+    visibility: 'visible'
+	},"preferred");
+
 });
