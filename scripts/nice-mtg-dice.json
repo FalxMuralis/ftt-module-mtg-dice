@@ -114,6 +114,29 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     ],
     system:"Eldricht_Moon_20"
   });
+  
+  // Blessed vs Cursed
+	dice3d.addSystem({id:"Blessed_vs_Cursed_1",name:"⚚ Blessed vs Cursed (d20, on 1)"},false);
+
+  dice3d.addDicePreset({
+    type:"d20",
+    labels:[
+      'modules/nice-mtg-dice/faces/blessed-vs-cursed.webp',
+      '2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20'
+    ],
+    system:"Blessed_vs_Cursed_1"
+  });
+  
+	dice3d.addSystem({id:"Blessed_vs_Cursed_20",name:"⚚ Blessed vs Cursed (d20, on 20)"},false);
+
+  dice3d.addDicePreset({
+    type:"d20",
+    labels:[
+      '1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
+      'modules/nice-mtg-dice/faces/blessed-vs-cursed.webp'
+    ],
+    system:"Blessed_vs_Cursed_20"
+  });
 		
 	// Colorset
 	dice3d.addColorset({
