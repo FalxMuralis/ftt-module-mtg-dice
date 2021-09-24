@@ -115,6 +115,52 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     system:"Eldricht_Moon_20"
   });
   
+  // Midnight Hunt
+	dice3d.addSystem({id:"Midnight_Hunt_1",name:"⚚ Midnight Hunt (d20, on 1)"},false);
+
+  dice3d.addDicePreset({
+    type:"d20",
+    labels:[
+      'modules/nice-mtg-dice/faces/midnight-hunt.webp',
+			'2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20'
+    ],
+    system:"Midnight_Hunt_1"
+  });
+		
+	dice3d.addSystem({id:"Midnight_Hunt_20",name:"⚚ Midnight Hunt (d20, on 20)"},false);
+
+  dice3d.addDicePreset({
+    type:"d20",
+    labels:[
+      '1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
+      'modules/nice-mtg-dice/faces/midnight-hunt.webp'
+    ],
+    system:"Midnight_Hunt_20"
+  });
+  
+  // Crimson Vow
+	dice3d.addSystem({id:"Crimson_Vow_1",name:"⚚ Crimson Vow (d20, on 1)"},false);
+
+  dice3d.addDicePreset({
+    type:"d20",
+    labels:[
+      'modules/nice-mtg-dice/faces/crimson-vow.webp',
+			'2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20'
+    ],
+    system:"Crimson_Vow_1"
+  });
+		
+	dice3d.addSystem({id:"Crimson_Vow_20",name:"⚚ Crimson Vow (d20, on 20)"},false);
+
+  dice3d.addDicePreset({
+    type:"d20",
+    labels:[
+      '1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
+      'modules/nice-mtg-dice/faces/crimson-vow.webp'
+    ],
+    system:"Crimson_Vow_20"
+  });
+  
   // Blessed vs Cursed
 	dice3d.addSystem({id:"Blessed_vs_Cursed_1",name:"⚚ Blessed vs Cursed (d20, on 1)"},false);
 
