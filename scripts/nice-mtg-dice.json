@@ -1,7 +1,7 @@
 Hooks.on('diceSoNiceReady', (dice3d) => {
 	
 	// Innistrad
-	dice3d.addSystem({id:"Innistrad_1",name:"⚚ Innistrad (d20, on 1)"},false);
+  dice3d.addSystem({id:"Innistrad_1",name:"⚚ Innistrad (d20, on 1)"},false);
 
   dice3d.addDicePreset({
     type:"d20",
@@ -21,6 +21,75 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
       'modules/nice-mtg-dice/faces/innistrad.webp'
     ],
     system:"Innistrad_20"
+  });
+  
+  // Dark Ascension
+	dice3d.addSystem({id:"Dark_Ascension_1",name:"⚚ Dark Ascension (d20, on 1)"},false);
+
+  dice3d.addDicePreset({
+    type:"d20",
+    labels:[
+      'modules/nice-mtg-dice/faces/dark-ascension.webp',
+			'2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20'
+    ],
+    system:"Dark_Ascension_1"
+  });
+	
+	dice3d.addSystem({id:"Dark_Ascension_20",name:"⚚ Dark Ascension (d20, on 20)"},false);
+
+  dice3d.addDicePreset({
+    type:"d20",
+    labels:[
+      '1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
+      'modules/nice-mtg-dice/faces/dark-ascension.webp'
+    ],
+    system:"Dark_Ascension_20"
+  });
+  
+  // Avacyn Restored
+	dice3d.addSystem({id:"Avacyn_Restored_1",name:"⚚ Avacyn Restored (d20, on 1)"},false);
+
+  dice3d.addDicePreset({
+    type:"d20",
+    labels:[
+      'modules/nice-mtg-dice/faces/avacyn-restored.webp',
+			'2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20'
+    ],
+    system:"Avacyn_Restored_1"
+  });
+	
+	dice3d.addSystem({id:"Avacyn_Restored_20",name:"⚚ Avacyn Restored (d20, on 20)"},false);
+
+  dice3d.addDicePreset({
+    type:"d20",
+    labels:[
+      '1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
+      'modules/nice-mtg-dice/faces/avacyn-restored.webp'
+    ],
+    system:"Avacyn_Restored_20"
+  });
+  
+  // Shadow over Innistrad
+	dice3d.addSystem({id:"Shadow_over_Innistrad_1",name:"⚚ Shadow over Innistrad (d20, on 1)"},false);
+
+  dice3d.addDicePreset({
+    type:"d20",
+    labels:[
+      'modules/nice-mtg-dice/faces/shadow-over-innistrad.webp',
+			'2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20'
+    ],
+    system:"Shadow_over_Innistrad_1"
+  });
+	
+	dice3d.addSystem({id:"Shadow_over_Innistrad_20",name:"⚚ Shadow over Innistrad (d20, on 20)"},false);
+
+  dice3d.addDicePreset({
+    type:"d20",
+    labels:[
+      '1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
+      'modules/nice-mtg-dice/faces/shadow-over-innistrad.webp'
+    ],
+    system:"Shadow_over_Innistrad_20"
   });
 	
 	// Eldricht Moon
@@ -45,53 +114,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     ],
     system:"Eldricht_Moon_20"
   });
-	
-	// Dark Ascension
-	dice3d.addSystem({id:"Dark_Ascension_1",name:"⚚ Dark Ascension (d20, on 1)"},false);
-
-  dice3d.addDicePreset({
-    type:"d20",
-    labels:[
-      'modules/nice-mtg-dice/faces/dark-ascension.webp',
-			'2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20'
-    ],
-    system:"Dark_Ascension_1"
-  });
-	
-	dice3d.addSystem({id:"Dark_Ascension_20",name:"⚚ Dark Ascension (d20, on 20)"},false);
-
-  dice3d.addDicePreset({
-    type:"d20",
-    labels:[
-      '1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
-      'modules/nice-mtg-dice/faces/dark-ascension.webp'
-    ],
-    system:"Dark_Ascension_20"
-  });
-	
-	// Shadow over Innistrad
-	dice3d.addSystem({id:"Shadow_over_Innistrad_1",name:"⚚ Shadow over Innistrad (d20, on 1)"},false);
-
-  dice3d.addDicePreset({
-    type:"d20",
-    labels:[
-      'modules/nice-mtg-dice/faces/shadow-over-innistrad.webp',
-			'2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20'
-    ],
-    system:"Shadow_over_Innistrad_1"
-  });
-	
-	dice3d.addSystem({id:"Shadow_over_Innistrad_20",name:"⚚ Shadow over Innistrad (d20, on 20)"},false);
-
-  dice3d.addDicePreset({
-    type:"d20",
-    labels:[
-      '1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
-      'modules/nice-mtg-dice/faces/shadow-over-innistrad.webp'
-    ],
-    system:"Shadow_over_Innistrad_20"
-  });
-	
+		
 	// Colorset
 	dice3d.addColorset({
     name: 'MTG',
