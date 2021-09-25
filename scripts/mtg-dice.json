@@ -6,7 +6,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
   dice3d.addDicePreset({
     type:"d20",
     labels:[
-      'modules/nice-mtg-dice/faces/innistrad.webp',
+      'modules/mtg-dice/faces/innistrad.webp',
 			'2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20'
     ],
     system:"Innistrad_1"
@@ -18,7 +18,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     type:"d20",
     labels:[
       '1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
-      'modules/nice-mtg-dice/faces/innistrad.webp'
+      'modules/mtg-dice/faces/innistrad.webp'
     ],
     system:"Innistrad_20"
   });
@@ -29,7 +29,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
   dice3d.addDicePreset({
     type:"d20",
     labels:[
-      'modules/nice-mtg-dice/faces/dark-ascension.webp',
+      'modules/mtg-dice/faces/dark-ascension.webp',
 			'2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20'
     ],
     system:"Dark_Ascension_1"
@@ -41,7 +41,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     type:"d20",
     labels:[
       '1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
-      'modules/nice-mtg-dice/faces/dark-ascension.webp'
+      'modules/mtg-dice/faces/dark-ascension.webp'
     ],
     system:"Dark_Ascension_20"
   });
@@ -52,7 +52,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
   dice3d.addDicePreset({
     type:"d20",
     labels:[
-      'modules/nice-mtg-dice/faces/avacyn-restored.webp',
+      'modules/mtg-dice/faces/avacyn-restored.webp',
 			'2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20'
     ],
     system:"Avacyn_Restored_1"
@@ -64,7 +64,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     type:"d20",
     labels:[
       '1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
-      'modules/nice-mtg-dice/faces/avacyn-restored.webp'
+      'modules/mtg-dice/faces/avacyn-restored.webp'
     ],
     system:"Avacyn_Restored_20"
   });
@@ -75,7 +75,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
   dice3d.addDicePreset({
     type:"d20",
     labels:[
-      'modules/nice-mtg-dice/faces/shadow-over-innistrad.webp',
+      'modules/mtg-dice/faces/shadow-over-innistrad.webp',
 			'2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20'
     ],
     system:"Shadow_over_Innistrad_1"
@@ -87,7 +87,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     type:"d20",
     labels:[
       '1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
-      'modules/nice-mtg-dice/faces/shadow-over-innistrad.webp'
+      'modules/mtg-dice/faces/shadow-over-innistrad.webp'
     ],
     system:"Shadow_over_Innistrad_20"
   });
@@ -98,7 +98,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
   dice3d.addDicePreset({
     type:"d20",
     labels:[
-      'modules/nice-mtg-dice/faces/eldritch-moon.webp',
+      'modules/mtg-dice/faces/eldritch-moon.webp',
 			'2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20'
     ],
     system:"Eldricht_Moon_1"
@@ -110,7 +110,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     type:"d20",
     labels:[
       '1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
-      'modules/nice-mtg-dice/faces/eldritch-moon.webp'
+      'modules/mtg-dice/faces/eldritch-moon.webp'
     ],
     system:"Eldricht_Moon_20"
   });
@@ -121,7 +121,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
   dice3d.addDicePreset({
     type:"d20",
     labels:[
-      'modules/nice-mtg-dice/faces/midnight-hunt.webp',
+      'modules/mtg-dice/faces/midnight-hunt.webp',
 			'2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20'
     ],
     system:"Midnight_Hunt_1"
@@ -133,7 +133,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     type:"d20",
     labels:[
       '1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
-      'modules/nice-mtg-dice/faces/midnight-hunt.webp'
+      'modules/mtg-dice/faces/midnight-hunt.webp'
     ],
     system:"Midnight_Hunt_20"
   });
@@ -144,7 +144,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
   dice3d.addDicePreset({
     type:"d20",
     labels:[
-      'modules/nice-mtg-dice/faces/crimson-vow.webp',
+      'modules/mtg-dice/faces/crimson-vow.webp',
 			'2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20'
     ],
     system:"Crimson_Vow_1"
@@ -156,7 +156,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     type:"d20",
     labels:[
       '1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
-      'modules/nice-mtg-dice/faces/crimson-vow.webp'
+      'modules/mtg-dice/faces/crimson-vow.webp'
     ],
     system:"Crimson_Vow_20"
   });
@@ -167,7 +167,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
   dice3d.addDicePreset({
     type:"d20",
     labels:[
-      'modules/nice-mtg-dice/faces/blessed-vs-cursed.webp',
+      'modules/mtg-dice/faces/blessed-vs-cursed.webp',
       '2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20'
     ],
     system:"Blessed_vs_Cursed_1"
@@ -179,7 +179,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     type:"d20",
     labels:[
       '1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
-      'modules/nice-mtg-dice/faces/blessed-vs-cursed.webp'
+      'modules/mtg-dice/faces/blessed-vs-cursed.webp'
     ],
     system:"Blessed_vs_Cursed_20"
   });
@@ -188,7 +188,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	dice3d.addColorset({
     name: 'MTG',
     description: "MTG Color Set",
-    category: "Nice MTG Dice",
+    category: "MTG Dice",
     foreground: '#a68c4e',
     background: "#ffffff",
 		outline: "#000000",
@@ -198,5 +198,4 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     font: 'Luminari',
     visibility: 'visible'
 	},"preferred");
-
 });
