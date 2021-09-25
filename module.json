@@ -1,7 +1,7 @@
 {
     "name": "nice-mtg-dice",
     "title": "Nice MTG Dice",
-    "description": "Adds a avacyn die to DsN.",
+    "description": "Adds a few MTG dice to DsN.",
     "author": "Falx",
     "version": "v1.2.3",
     "minimumCoreVersion": "0.7.0",
