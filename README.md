@@ -1,4 +1,10 @@
 # MTG Dice
-Install to Foundry VTT with: https://raw.githubusercontent.com/FalxMuralis/fvtt-module-mtg-dice/main/module.json
+## Install
+To install copy this manifest link into your Foundry VTT plugin browser:
 
-Inspired by: https://github.com/LyncsCwtsh/fvtt-module-nice-more-dice
+* https://raw.githubusercontent.com/FalxMuralis/fvtt-module-mtg-dice/main/module.json
+
+## Inspired
+Inspired by:
+
+* https://github.com/LyncsCwtsh/fvtt-module-nice-more-dice
